@@ -1,0 +1,25 @@
++<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href ="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="main">
+      <h1 class="heading">Temperature Converter</h1>
+      <div class="temp-container">
+        <input onchange="ConvertTemp(event)" type="number" name="Celsius" id="Celsius" class="Celsius" placeholder="Celsius"/>
+        <span class ="icon">&#8451</span>
+        <input onchange="ConvertTemp(event)" type="number" name="Fahrenheit" id="Fahrenheit" class="Fahrenheit" placeholder="Fahrenheit"/>
+        <span class ="icon">&#8457</span>
+      </div>
+      <button type="submit" class="convertus">Convert</button>
+    </div>
+    
+    <script src="script.js"></script>
+    
+</body>
+</html>
